@@ -1,14 +1,6 @@
-def reverce( str )
-  rev = ""
-  str.length.times{ |i|
-    rev.push( str.pop )
-  }
-  return rev
-end
-
 def main()
-  str = "stressed"
-  puts( reverce( str ) )
+  str = "パタトクカシーー"
+  puts( str[0] + str[2] + str[4] + str[6] )
 end
 
 main()
