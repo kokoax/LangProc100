@@ -34,9 +34,9 @@ def main()
   puts()
   puts( letterBiGram( x ).keys & letterBiGram( y ).keys )
   puts()
-  puts( letterBiGram( x ).has_key( 'se' ) )
+  puts( letterBiGram( x ).has_key?( 'se' ) )
   puts()
-  puts( letterBiGram( y ).has_key( 'se' ) )
+  puts( letterBiGram( y ).has_key?( 'se' ) )
   puts()
 end
 
